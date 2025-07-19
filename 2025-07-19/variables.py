@@ -21,3 +21,19 @@ print(A)
 print(a)
 
 int = 1
+
+w = 1
+print(w)
+w += 1
+print(w)
+
+w = 1 
+# w = w + 1
+w += 1
+print("Wartosc zmiennej w", w)
+w -= 1
+print("Wartosc zmiennej w", w)
+w *= 2 
+print("Wartosc zmiennej w", w)
+w /= 2 
+print("Wartosc zmiennej w", w)
