@@ -19,3 +19,28 @@ print(len(list3))
 
 # Count how many particular element exist on list
 print(list3.count(1))
+
+# Copy of list and problems with it
+print("Problems with list copy")
+list4 = [1, 2, 3, 4]
+list5 = list4
+
+print(list4)
+print(list5)
+
+list4.append(5)
+
+print(list4)
+print(list5)
+
+print("Resolution of above problem")
+list6 = [1, 2, 3, 4]
+list7 = list6[:]
+
+print(list6)
+print(list7)
+
+list6.append(5)
+
+print(list6)
+print(list7)
