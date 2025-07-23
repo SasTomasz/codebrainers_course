@@ -2,6 +2,9 @@
 # Mając dany ciąg znaków o nieparzystej długości większej niż 7,
 # zwróć nowy łańcuch złożony z trzech środkowych znaków tego ciągu.
 
+data = "governments" # reslult "rnm"
+mid_idx = len(data)
+
 
 # Ćwiczenie nr 2:
 # Mając dane dwa ciągi znaków s1 i s2, utwórz nowy ciąg znaków,
