@@ -5,3 +5,17 @@ list2 = [6, 7, 8, 9, 10]
 list3 = list1 + [11, 12, 13, 14, 15] + list2
 
 print(list3)
+
+# Adding a new element to a list
+list3.append("NEW ELEMENT")
+print(list3)
+
+# Add new iterable element
+list3.extend(list1)
+print(list3)
+
+# List lenght
+print(len(list3))
+
+# Count how many particular element exist on list
+print(list3.count(1))
