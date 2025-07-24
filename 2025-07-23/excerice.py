@@ -12,11 +12,8 @@ def middle_chars(data="governments"):
     mid_idx = get_middle_index(data)
     print(f"{data[mid_idx - 1:mid_idx + 2]}")
 
-# middle_chars()
+middle_chars()
 
-
-
-# middle_chars()
 
 # Ćwiczenie nr 2:
 # Mając dane dwa ciągi znaków s1 i s2, utwórz nowy ciąg znaków,
@@ -27,7 +24,7 @@ def concatenate_strings(str1="Elephant", str2="Super"):
     new_word = str1[:mid_idx] + str2 + str1[mid_idx:]
     print(new_word)
 
-# concatenate_strings()
+concatenate_strings()
 
 
 # Ćwiczenie nr 3:
@@ -35,6 +32,7 @@ def concatenate_strings(str1="Elephant", str2="Super"):
 # zwróć nowy łańcuch złożony z:
 # - pierwszego, środkowego i ostatniego znaku z s1,
 # - pierwszego, środkowego i ostatniego znaku z s2.
+
 def get_three_chars(data):
     new_data = data[0] + data[get_middle_index(data)] + data[-1]
     return new_data
@@ -45,7 +43,7 @@ def modify_strings(str1="railway", str2="motorbike"):
     new_word = new_str1 + new_str2
     print(new_word)
 
-# modify_strings()
+modify_strings()
 
 # Ćwiczenie nr 4:
 # Odwróć podany ciąg znaków.
