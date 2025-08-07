@@ -6,4 +6,4 @@ def show_text_from_file(path):
     with open(path, "r", encoding="utf-8") as f:
         print(f.read())
     
-show_text_from_file(r"2025-08-02\example1.txt")
+show_text_from_file(r"2025-08-02\ex2-008.py")
