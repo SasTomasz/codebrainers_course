@@ -1,3 +1,5 @@
 2025-08-05/tests/__pycache__
 2025-08-05/tests/.pytest_cache
 venv
+__pycache__
+.pytest_cache
