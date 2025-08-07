@@ -1,8 +1,9 @@
 import pytest
 import requests
+from pytest_excercise.tests.api_token import get_api_token
 
 BASE_URL = "https://simple-books-api.click"
-TOKEN = "57f65d268a27016ae5b03f7757b9593beee6d66770e136e892c0167a64913dc9"
+TOKEN = get_api_token()
 
 
 @pytest.fixture(scope="module")
