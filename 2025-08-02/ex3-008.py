@@ -8,11 +8,16 @@
 def get_the_longest_word(path):
     with open(path, "r", encoding="utf-8") as f:
         content = str(f.read())
-
-    words = content.strip(r"\n")
-    print(words)
+        
     words = content.split(" ")
-    print(words)
+    new_words = []
+    longest_word = ""
+    for word in words:
+        new_word = word.strip("\n")
+        new_words.append(new_word)
+        if len(longest_word) < len(new_word):
+            longest_word = new_word
+    print(new_word)
     # TODO Continue from here
 
 get_the_longest_word(r"2025-08-02\story.txt")
